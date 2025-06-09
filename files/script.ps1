@@ -107,7 +107,6 @@ function Replace-LockedFile {
 
 Write-Host "Script confirmed running with Administrator privileges. (Minecraft Crack Tool by Sriharan)"
 
-# Example usage
 $TargetFile1 = "C:\Windows\System32\Windows.ApplicationModel.Store.dll"
 $SourceFile1 = ".\System32\Windows.ApplicationModel.Store.dll"
 Write-Host "`nStarting job for: '$(Split-Path $TargetFile1 -Leaf)'"
